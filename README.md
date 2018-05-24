@@ -23,24 +23,34 @@ sklearn
 pyhsmm
 ```
 
+For training purpose, we suggest that runing the code on Google Cloud Computing or other servers. We also used Jupyter Notebook for debuging and this tool also highly recommented. 
+
 ### Installing
 
-Install these python packages:
+Install python packages:
 
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+For most packages you can use this easy way to install
 
 ```
-until finished
+pip install packagename
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+But installing package pyhsmm is a little bit triky. [pyhsmm github repository](https://github.com/mattjj/pyhsmm.git) 
+
+An usefull summaries as follows:
+1.download pyhsmm from pyhsmm github repository](https://github.com/mattjj/pyhsmm.git) 
+2. install "future" and  "pybasicbayes" first. Because we found that it won't work without package "future" and "pybasicbayes".
+```
+pip install future
+pip install pybasicbayes
+```
+3.
+```
+cd /…/pyhsmm-master
+python setup.py install
+```
+Congradulations! You have installed all the packages on your machine.
 
 ## Running the tests
 
