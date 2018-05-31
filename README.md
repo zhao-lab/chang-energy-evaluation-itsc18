@@ -23,7 +23,7 @@ sklearn
 pyhsmm
 ```
 
-For training purpose, we suggest that runing the code on Google Cloud Computing or other servers. We also used Jupyter Notebook for debuging and this tool also highly recommented. 
+For training purpose, we suggest that runing the code on Google Cloud Computing or other servers. We also used Jupyter Notebook for debuging and these tools all are highly recommented. 
 
 ### Installing
 
@@ -52,43 +52,32 @@ python setup.py install
 ```
 Congradulations! You have installed all the packages on your machine.
 
-## Running the tests
+## Running the code
 
-Explain how to run the automated tests for this system
+Basically, there are six parts of the code 1)data query 2)posteriorl model 3)real data process 4)statis and results 5)constrained K means clustering 6)KL divergence
+how the code arranged and worked, see comments in the ipynb files.
 
-### Break down into end to end tests
+### Data Query
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+Query data from server of UMICH TRI. If this sever are not avalibel for you, you can use the data published by federal government. 
 
 ```
-Give an example
+http://
 ```
 
-## Deployment
+### Posterial Model
 
-Add additional notes about how to deploy this on a live system
+training data by using pyhsmm package.
+For more introduction about how to use pyhsmm. See:
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+```
+https://github.com/mattjj/pyhsmm
+```
 
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
@@ -99,10 +88,4 @@ See also the list of [contributors](https://github.com/your/project/contributors
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
 
