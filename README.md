@@ -54,7 +54,7 @@ Congradulations! You have installed all the packages on your machine.
 
 ## Running the code
 
-Basically, there are six parts of the code 1)data query 2)posteriorl model 3)real data process 4)statis and results 5)constrained K means clustering 6)KL divergence
+Basically, there are six parts of the code: 1)data query 2)posteriorl model 3)real data process 4)statis and results 5)constrained K means clustering 6)KL divergence
 how the code arranged and worked, see comments in the ipynb files.
 
 ### Data Query
@@ -67,17 +67,27 @@ http://
 
 ### Posterial Model
 
-training data by using pyhsmm package.
+trained data by using pyhsmm package.
 For more introduction about how to use pyhsmm. See:
 
 ```
 https://github.com/mattjj/pyhsmm
 ```
 
+### Real Data Process
+data with fuel consumption for the validate vehicle 
+
+### Statis and Results
+Extracted the training results from the posteriol model
+
+
+### constrained K means clustering 
+Combined with package "conclust" in R to get the clusters with background knowledge.
+
+### KL divergence
+Calculated the cluster distribution distance between valicate vehicle and big data models.
+
 ## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 
 ## Authors
 
