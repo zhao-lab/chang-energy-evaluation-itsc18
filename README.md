@@ -87,8 +87,6 @@ Combined with package "conclust" in R to get the clusters with background knowle
 ### KL divergence
 Calculated the cluster distribution distance between valicate vehicle and big data models.
 
-## Contributing
-
 ## Authors
 
 * **Weiqing Yang**  - [Weiqing Yang](https://github.com/VinchinYang)
