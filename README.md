@@ -39,13 +39,14 @@ pip install packagename
 But installing package pyhsmm is a little bit triky. [pyhsmm github repository](https://github.com/mattjj/pyhsmm.git) 
 
 An usefull summaries as follows:
-1.download pyhsmm from pyhsmm github repository](https://github.com/mattjj/pyhsmm.git) 
+1.download pyhsmm from pyhsmm github repository](https://github.com/mattjj/pyhsmm.git)    
 2. install "future" and  "pybasicbayes" first. Because we found that it won't work without package "future" and "pybasicbayes".
 ```
 pip install future
 pip install pybasicbayes
 ```
-3.
+   
+3.change to the pyhsmm-master directory and install setup.py
 ```
 cd /…/pyhsmm-master
 python setup.py install
@@ -54,8 +55,14 @@ Congradulations! You have installed all the packages on your machine.
 
 ## Running the code
 
-Basically, there are six parts of the code: 1)data query 2)posteriorl model 3)real data process 4)statis and results 5)constrained K means clustering 6)KL divergence
-how the code arranged and worked, see comments in the ipynb files.
+Basically, there are six parts of the code:   
+1)data query   
+2)posteriorl model    
+3)real data process    
+4)statis and results    
+5)constrained K means clustering    
+6)KL divergence   
+How the code arranged and worked, see comments in the ipynb files.
 
 ### Data Query
 
