@@ -1,6 +1,6 @@
 # Evaluation of the Fuel Economy and Emission for CAV using Real-world Driving Datasets
 
-Developed the new evaluation method and standard which could evaluate the impacts on energy consumption and environmental pollution of CAV fairly, especially under the various traffic conditions. In this project, we proposed a new method to evaluate the fuel economy and emission level of the evaluated vehicle based on the unsupervised learning of the real-world driving data of the evaluated vehicle and typical driving primitive analysis of the naturalistic driving dataset of a large number of different vehicles. For more information see paper [http://............]
+Developed the new evaluation method and standard which could evaluate the impacts on energy consumption and environmental pollution of CAV fairly, especially under the various traffic conditions. In this project, we proposed a new method to evaluate the fuel economy and emission level of the evaluated vehicle based on the unsupervised learning of the real-world driving data of the evaluated vehicle and typical driving primitive analysis of the naturalistic driving dataset of a large number of different vehicles. For more information see our paper [https://arxiv.org/abs/1805.07643v1]
 
 ## Getting Started
 
