@@ -96,8 +96,8 @@ Calculated the cluster distribution distance between valicate vehicle and big da
 
 ## Authors
 
-* **Weiqing Yang**  - [Weiqing Yang](https://github.com/VinchinYang)
 * **Yan Chang** - [Yan Chang](https://github.com/yanyanlucky)
+* **Weiqing Yang**  - [Weiqing Yang](https://github.com/VinchinYang)
 * **Ding Zhao**
 
 See also the list of [contributors](https://github.com/zhao-lab/chang-energy-evaluation-itsc18/graphs/contributors) who participated in this project.
